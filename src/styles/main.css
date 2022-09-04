@@ -1,0 +1,11 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: steelblue;
+    font-size: 48px;
+}
