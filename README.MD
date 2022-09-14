@@ -1,5 +1,6 @@
 # Pricing Component
 
+## Description
 Voici le premier challenge: un composent de prix. Composent facilement intégrable a n'importe quel site vendant un ou des services ! 
 Vous trouverez la maquette de celui ci dans le lien si dessous. Vous pouvez partir d'un fork du repo Github, les assets, la font ainsi qu'un compileur (Parcel.js) est déjà installé ! 
 Libres a vous d'installer un préprocesseur ou un framework si vous le souhaiter. 
@@ -39,3 +40,4 @@ In the host select the dist folder
 - [Prototype](https://www.figma.com/proto/IaAGuWoX2w26vKjfdCcgdq/Component?page-id=0%3A1&node-id=14%3A225&scaling=min-zoom&starting-point-node-id=14%3A225&show-proto-sidebar=1)
 - [Design](https://www.figma.com/file/IaAGuWoX2w26vKjfdCcgdq/Component?node-id=0%3A1)
 
+## Participants
