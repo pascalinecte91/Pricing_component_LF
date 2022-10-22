@@ -4,14 +4,18 @@ body {
 }
 :root {
     --white: #FFFFFF;
-    --whiteD: #F7F7FF;
+    --background: #F9FAFE;
     --black: #000000;
     --purple: #A4A7E7;
     --purpleD: #6B6EDC;
     --body: #f6f3ff;
+    --grey:#A6A7A9;
+    
 }
 main {
     margin: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -19,6 +23,7 @@ h1{
     justify-content: center;
     font-size: 2rem;
     font-family: 'Montserrat';
+    font-weight: 700;
 }
 .container {
     display: flex;
@@ -27,13 +32,21 @@ h1{
     align-items: center;
     align-content: center;
 }
-.bloc{
+.bloc,
+.bloc,
+.bloc {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 40px;
 }
+
 .basic,
 .master {
+    display: flex;
+    flex-direction: column;
     width: 360px;
     height: 453px;
     background-color: #FFFFFF;
@@ -45,10 +58,21 @@ h1{
     justify-content: center;
     text-align: center;
 }
+
+hr{
+    width: 18.5rem;
+}
+
+figcaption{
+    font-size: 20px;
+}
 .pro {
     width: 360px;
     height: 493px;
-    background-color: #FFFFFF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 1px;
     background: linear-gradient(315.46deg, #6B6EDC 0.77%, #A4A7E7 100%);
     font-weight: 700;
@@ -59,6 +83,14 @@ h1{
 }
 h3 {
     margin-left: 2rem;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+    font-size: 40px;
 }
 .containerFirst {
 display: flex;
@@ -113,12 +145,13 @@ align-items: center;
 
 .switch-label {
     display: block;
-    width: 48px;
-    height: 24px;
+    width: 56px;
+    height: 32px;
     text-indent: -150%;
     clip: rect(0 0 0 0);
     color: transparent;
     user-select: none;
+    border-right: 1rem;
 }
 
 .switch-label::before,
@@ -139,10 +172,10 @@ align-items: center;
 }
 
 .switch-label::after {
-    top: 0;
+    top: 1.1px;
     left: 0;
-    width: 24px;
-    height: 24px;
+    width: 29px;
+    height: 29px;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
