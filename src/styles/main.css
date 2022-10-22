@@ -1,6 +1,10 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     background-color: var(--body);
+    background-image: url(/src/images/deco-background.png);
+    background-position:90% 10%;
+    
+    /*background-position:left bottom;*/
 }
 :root {
     --white: #FFFFFF;
@@ -22,8 +26,8 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    font-family: 'Montserrat';
     font-weight: 700;
+    margin-bottom: -50px;
 }
 .container {
     display: flex;
@@ -37,7 +41,7 @@ h1{
 .bloc {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     font-size: 2rem;
     margin-bottom: 40px;
@@ -54,9 +58,9 @@ h1{
     font-size: 18px;
     font-weight: 700;
     color: black;
-    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 hr{
@@ -65,10 +69,11 @@ hr{
 
 figcaption{
     font-size: 20px;
+    text-align: center;
 }
 .pro {
     width: 360px;
-    height: 493px;
+    height: 507px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -77,9 +82,12 @@ figcaption{
     background: linear-gradient(315.46deg, #6B6EDC 0.77%, #A4A7E7 100%);
     font-weight: 700;
 }
-
+h5 {
+    font-style: 18px;
+}
 .price {
     font-size: 72px;
+    margin: 0px;
 }
 h3 {
     margin-left: 2rem;
@@ -87,15 +95,26 @@ h3 {
 
 .title{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width:100%;
     align-items: center;
     font-size: 40px;
+    margin-block: -20px;
 }
+
+.basicTitle,
+.masterTitle {
+    font-style: 18px;
+}
+p.proTitle{
+    font-size: 18px;
+}
+
 .containerFirst {
 display: flex;
 justify-content: center;
 align-items: center;
+margin-bottom: 30px;
 }
 .containerButton {
     margin: 100px 10px 10px 10px;
@@ -103,12 +122,6 @@ align-items: center;
 }
 
 .btn {
-    width: 290px;
-    height: 45px;
-    border-radius: 5px;
-}
-
-.btn1 {
     background-color: var(--white);
     color: var(--purpleD);
     margin: 0px 70px 25px 0px;
@@ -165,7 +178,7 @@ align-items: center;
 .switch-label::before {
     width: 100%;
     height: 100%;
-    background-color: #dedede;
+    background: linear-gradient(90deg, #A4A7E7 0%, #6B6EDC 100%);
     border-radius: 9999em;
     -webkit-transition: background-color 0.25s ease;
     transition: background-color 0.25s ease;
@@ -191,3 +204,32 @@ align-items: center;
 .switch-input:checked+.switch-label::after {
     left: 24px;
 }
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+}
+.button_center {
+    color: var(--purpleD);
+    font-weight: 700;
+}
+
+button {
+    display: flex;
+}
+.learn,
+.learn_pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 297px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.learn {
+    background-color:var(--purple)
+
+}
+
