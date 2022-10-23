@@ -1,9 +1,19 @@
 /* RESPONSIVE min 325 px  max 767.99 */
+
+body {
+  background-position: 105% -6%, 0% 97%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 41%, 35%;
+}
 .bloc{
   align-items: center;
   flex-direction: column;
 }
 
+.basic,
+.master,
 .pro {
   border-radius: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }

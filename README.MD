@@ -13,6 +13,10 @@ Vous etes libre de mettre ce composant dans un portfolio ou autre.
 Rendez vous dans ? Pour echanger et partager les resultats ! 
 (Projet venant de Frontend mentor. Repo et maquette realiser par nos soin, il y a quelques petites coquilles sur celle ci. On debute sur Figma, on va s'ameliorer avec le temps, on vous le promets, ne nous en voulez pas ! ).
 
+![desktop](./src/images/capture_desktop.png)
+<p align="center">
+<img src="./src/images/capture_mobile.png" width= "250px"></p>
+
 ## Installation 
 ⚠️ Node.js is require 
 
