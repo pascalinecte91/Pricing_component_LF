@@ -45,3 +45,5 @@ In the host select the dist folder
 - [Design](https://www.figma.com/file/IaAGuWoX2w26vKjfdCcgdq/Component?node-id=0%3A1)
 
 ## Participants
+
+https://pascalinecte91.github.io/Pricing_component_LF/

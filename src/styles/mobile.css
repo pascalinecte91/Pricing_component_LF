@@ -1,20 +1,20 @@
 body {
-  background-position: 125% 4%, 10% 96%;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 65%, 66%;
+    background-position: 125% 4%, 10% 96%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 65%, 66%;
 }
 
-.bloc{
-  align-items: center;
-  flex-direction: column;
+.bloc {
+    align-items: center;
+    flex-direction: column;
 }
 
 .basic,
 .master {
-  margin-bottom: 25px;
-  border-radius: 5px;
-  padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-bottom: 15px;
 }
-.pro{
-  margin-bottom: 25px;
+.pro {
+    margin-bottom: 25px;
 }
